@@ -1,0 +1,170 @@
+body{
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin:0;
+}
+
+header{
+  text-align: center;
+  background-image: url("images/bg-header-desktop.jpg");
+  background-repeat: no-repeat;
+  padding:5% 25%;
+}
+
+h1{
+  font-weight:600;
+}
+
+p{
+  color:hsl(201, 11%, 66%);
+  line-height:1.5;
+}
+
+.logo{
+  margin-bottom:4%;
+}
+
+button{
+  color:#fff;
+  border:none;
+  border-radius:20px;
+  padding:2% 5%;
+  margin:1.5%;
+}
+
+.ios-btn:hover,.mac-btn:hover{
+  color:#000000;
+}
+
+.ios-btn{
+  background-color:hsl(171, 66%, 44%);
+  box-shadow:10px 10px 20px 0px rgba(38,186,164,0.23);
+}
+
+.mac-btn{
+  background-color:hsl(233, 100%, 69%);
+  box-shadow:10px 10px 29px -11px rgba(0,0,0,0.31);
+}
+
+/* Middle Header */
+
+.middle-header{
+  text-align:center;
+  padding:5% 25%;
+}
+
+/* First Section */
+
+.first-section{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-top:5%;
+}
+
+.sub-section{
+  margin-left:15%;
+  margin-bottom:5%;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+
+.computer-img{
+  margin-left:-3%;
+  height:500px;
+  width:55%;
+}
+
+/* Access Section */
+
+.access{
+  text-align:center;
+  padding:10% 25%;
+}
+
+.image-devices{
+  text-align: center;
+}
+
+.devices{
+  height:500px;
+}
+
+/* Supercharge Section */
+
+.supercharge{
+  text-align: center;
+  padding-top:5%;
+}
+
+/* Info Section */
+
+.info-section{
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  padding-top:7%;
+}
+
+.flex-item{
+  padding:3%;
+  width:30%;
+}
+
+/* Logo Section */
+
+.logo-section{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding-bottom:10%;
+  padding-top:10%;
+}
+
+.business-logo{
+  width:10%;
+  height:40px;
+}
+
+/* Call to action section */
+
+.cta{
+  text-align: center;
+  padding: 5% 20% 10% 20%;
+}
+
+/* Footer Section */
+
+.footer{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding-bottom:3%;
+  padding-top:3%;
+  background-color:#DCDCDC;
+}
+
+.footer-logo{
+  height:75px;
+  margin-top:1%;
+}
+
+.footer-p{
+  color:#000000;
+}
+
+.footer-p:hover{
+  color:#fff;
+}
+
+.fab-div{
+  padding:2%;
+}
+
+
+i{
+  padding:3px;
+  margin:5px;
+}
